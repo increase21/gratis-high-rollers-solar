@@ -19,7 +19,7 @@
 
    <!-- Core Stylesheet -->
    <!-- <link href="/css/animate.css" rel="stylesheet" /> -->
-   <link href="/css/style.css" rel="stylesheet" />
+   <link href="css/style.css" rel="stylesheet" />
 
    <!-- Responsive CSS -->
    <link href="css/responsive/responsive.css" rel="stylesheet">
@@ -107,7 +107,7 @@
          <div class="row h-100">
             <div class="col-12 h-100">
                <nav class="h-100 navbar navbar-expand-lg align-items-center">
-                  <a class="navbar-brand" href="index.html">FcSollar</a>
+                  <a class="navbar-brand" href="index.html">TopSolar</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fancyNav"
                      aria-controls="fancyNav" aria-expanded="false" aria-label="Toggle navigation"><span
                         class="ti-menu"></span></button>
