@@ -1312,6 +1312,10 @@ li {
    .breadcumb-content h1 {
       font-size: 41px;
    }
+
+   .hero_btn {
+      margin-top: 3rem;
+   }
 }
 
 @media(max-width:767px) {
