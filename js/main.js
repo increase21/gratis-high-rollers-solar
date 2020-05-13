@@ -1,11 +1,11 @@
 $(document).ready(() => {
    let GCountry = null
    let GZip = null
-   $.get('http://ip-api.com/json/').done(e => {
-      GCountry = e.countryCode
-      GZip = e.zip
+   $.get('https://api.ipdata.co/?api-key=d4b2ec5cd9239b7b126259f0b012f352754ba15ad2ab4e61f23cf748').done(e => {
+      GCountry = e.country_code
+      GZip = e.postal
       $("#zip").val(GZip)
-      if (e.status === 'success') {
+      if (GZip) {
          $('.auto-detect').removeClass('d-none')
       }
    }).fail((e) => {
