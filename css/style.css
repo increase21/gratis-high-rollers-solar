@@ -1304,7 +1304,7 @@ li {
 
 @media(min-width:1301px) {
    .col_muted {
-      max-width: 60%;
+      /* max-width: 60%; */
    }
 }
 
