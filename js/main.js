@@ -72,6 +72,7 @@ $(document).ready(() => {
          data: $('#lead_form_fr').serialize()
       }).done(e => {
          if (e.status === 'success') {
+            dataLayer.push({ 'event': 'CompleteRegistration' });
             $('#modal-container').html(`<div class="p-5 text-center">
                <h4 class="text-green">Thank You! We will contact you shortly!</h4>
                <button type="button" class="btn mt-3 btn-light w-100 close-modal" id="">Cancel</button></div>
